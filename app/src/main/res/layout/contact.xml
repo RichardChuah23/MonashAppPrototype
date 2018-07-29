@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="fill_parent"
+    android:background="@color/colorGreyBackground"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <ImageView
+        android:id="@+id/img_signUpLogo"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_applogo"
+        />
+    <TextView
+        android:id="@+id/MonashLibraryLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monash Library Line"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="Roboto"
+        android:textSize="20sp"
+        android:layout_below="@+id/img_signUpLogo"
+        android:layout_marginTop="6dp"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/MonashLibraryLineSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="Roboto"
+        android:textSize="16sp"
+        android:text = "04023050203"
+        android:layout_below="@+id/MonashLibraryLine"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:id="@+id/MonashLibraryAdress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monash Library Main Office"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="Roboto"
+        android:textSize="20sp"
+        android:layout_below="@+id/MonashLibraryLineSub"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/MonashLibraryAdressSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="Roboto"
+        android:textSize="16sp"
+        android:text = "12, Chancellor Walk,"
+        android:layout_below="@+id/MonashLibraryAdress"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/MonashLibraryAdressSub2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="Roboto"
+        android:textSize="16sp"
+        android:text = "Monash University"
+        android:layout_below="@+id/MonashLibraryAdressSub"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/MonashLibraryAdressSub3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="Roboto"
+        android:textSize="16sp"
+        android:text = "3168, Clayton, VIC"
+        android:layout_below="@+id/MonashLibraryAdressSub2"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:id="@+id/MonashWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visit Monash Website"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="Roboto"
+        android:textSize="20sp"
+        android:layout_below="@+id/MonashLibraryAdressSub3"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/MonashWebsiteSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="Roboto"
+        android:textSize="16sp"
+        android:text = "https://www.monash.edu/library/libraries/australia/hal"
+
+        android:layout_below="@+id/MonashWebsite"
+        android:layout_alignParentStart="true" />
+
+
+
+</RelativeLayout>

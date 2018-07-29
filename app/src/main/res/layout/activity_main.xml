@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#546e7a"
+    tools:context="com.example.richard.bookrian.MainActivity"
+    tools:layout_editor_absoluteY="89dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <!--
+    <include
+        layout="@layout/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+        -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical">
+
+    <Button
+        android:id="@+id/BookButton"
+        android:layout_width="77pt"
+        android:layout_height="102pt"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_book"
+        android:textColorLink="@color/cast_expanded_controller_background_color"
+        android:text="Book"
+        android:fontFamily="Roboto"
+        android:textStyle="bold"
+        android:gravity="bottom|left"
+        android:paddingLeft="30px"
+        android:paddingBottom="13px" />
+
+    <Button
+        android:id="@+id/LibraryBuutton"
+        android:layout_width="77pt"
+        android:layout_height="102pt"
+        android:background="@drawable/ic_library"
+        android:layout_marginTop="10dp"
+        android:layout_alignStart="@+id/ContactButton"
+
+        android:text="Library"
+        android:fontFamily="Roboto"
+        android:textStyle="bold"
+        android:gravity="bottom|left"
+        android:paddingLeft="30px"
+        android:paddingBottom="13px" />
+
+
+
+    <Button
+        android:id="@+id/AccountButton"
+        android:layout_width="77pt"
+        android:layout_height="102pt"
+        android:background="@drawable/ic_account"
+        android:src="@drawable/ic_account"
+        android:layout_alignTop="@+id/ContactButton"
+        android:layout_alignStart="@+id/BookButton"
+        android:layout_alignEnd="@+id/BookButton"
+
+        android:text="Account"
+        android:fontFamily="Roboto"
+        android:textStyle="bold"
+        android:gravity="bottom|left"
+        android:paddingLeft="30px"
+        android:paddingBottom="13px" />
+
+
+    <Button
+        android:id="@+id/ContactButton"
+        android:layout_width="77pt"
+        android:layout_height="102pt"
+        android:background="@drawable/ic_contact"
+        android:layout_below="@+id/LibraryBuutton"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/AccountButton"
+
+
+        android:text="Contact"
+        android:fontFamily="Roboto"
+        android:textStyle="bold"
+        android:gravity="bottom|left"
+        android:paddingLeft="30px"
+        android:paddingBottom="13px" />
+
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

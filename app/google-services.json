@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "913177271973",
+    "firebase_url": "https://bookrian-27c1a.firebaseio.com",
+    "project_id": "bookrian-27c1a",
+    "storage_bucket": "bookrian-27c1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913177271973:android:be93b4b4e1f9b0d9",
+        "android_client_info": {
+          "package_name": "com.example.richard.bookrian"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913177271973-dp0tn4744ud46tjole3pic5aon4duq3p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.richard.bookrian",
+            "certificate_hash": "71adbffcbba81273a1ba4c1e226f324907b07958"
+          }
+        },
+        {
+          "client_id": "913177271973-nq93pr9ks6f1u7518d6os0jh7e548j31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi5F6bLigNhDyOv-OYPPQBbKnvU8IGyPw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913177271973-nq93pr9ks6f1u7518d6os0jh7e548j31.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
